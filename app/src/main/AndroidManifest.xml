@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Reto01"
+        tools:targetApi="31">
+        <activity
+            android:name=".Consejo02"
+            android:exported="false" />
+        <activity
+            android:name=".Consejo01"
+            android:exported="false" />
+        <activity
+            android:name=".EstadisticasDinero"
+            android:exported="false" />
+        <activity
+            android:name=".EstadisticasPapel"
+            android:exported="false" />
+        <activity
+            android:name=".EstadisticasPlastico"
+            android:exported="false" />
+        <activity
+            android:name=".ConsultaEstadisticas"
+            android:exported="false" />
+        <activity
+            android:name=".RegistroDinero"
+            android:exported="false" />
+        <activity
+            android:name=".RegistroPapel"
+            android:exported="false" />
+        <activity
+            android:name=".RegistroPlastico"
+            android:exported="false" />
+        <activity
+            android:name=".Categorias"
+            android:exported="false" />
+        <activity
+            android:name=".Categoria"
+            android:exported="false" />
+        <activity
+            android:name=".PantallaPrincipal"
+            android:exported="false" />
+        <activity
+            android:name=".RegistroUsuarioNuevo"
+            android:exported="false" />
+        <activity
+            android:name=".IngresoErradoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false"
+            android:label="@string/title_activity_main2"
+            android:theme="@style/Theme.Reto01" />
+        <activity
+            android:name=".ActividadIngresoErrado"
+            android:exported="false"
+            android:label="@string/title_activity_actividad_ingreso_errado"
+            android:theme="@style/Theme.Reto01" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
